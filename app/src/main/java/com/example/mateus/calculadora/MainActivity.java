@@ -23,12 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btMais;
     Button btIgual;
     Button btMenos;
-    Button bt0;
-    Button bt1;
-    Button bt2;
-    Button bt3;
-    Button bt4;
-    Button bt5;
+    Button bt0;    Button bt1;     Button bt2;     Button bt3;     Button bt4;     Button bt5;
     Button bt6;
     Button bt7;
     Button bt8;
@@ -40,9 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText etNumber1;
     EditText etNumber2;
     TextView tvResult;
-
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,16 +96,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             switch(op) {
                 case "+":
-
                     return Double.parseDouble(numbers[0])+Double.parseDouble(numbers[1]);
                 case "-":
-
                     return Double.parseDouble(numbers[0])-Double.parseDouble(numbers[1]);
                 case "/":
-
                     return Double.parseDouble(numbers[0])/Double.parseDouble(numbers[1]);
                 case "*":
-
                     return Double.parseDouble(numbers[0])*Double.parseDouble(numbers[1]);
                 default:
 
@@ -120,8 +109,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
     }
-
-
 
 }
 
